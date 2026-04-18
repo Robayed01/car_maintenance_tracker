@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
       const UpcomingScreen(),
     ];
 
-    return ScaffoldRead
+    return Scaffold(
       // --- Top App Bar ---
       appBar: AppBar(
         title: const Text(
