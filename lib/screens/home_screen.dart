@@ -41,10 +41,13 @@ class _HomeScreenState extends State<HomeScreen> {
       const UpcomingScreen(),
     ];
 
-    return Scaffold(
+    return ScaffoldRead
       // --- Top App Bar ---
       appBar: AppBar(
-        title: const Text('Car Maintenance Tracker'),
+        title: const Text(
+          'Car Maintenance Tracker',
+          style: TextStyle(fontSize: 18),
+        ),
         actions: [
           // Dark / Light mode tap icon
           IconButton(
